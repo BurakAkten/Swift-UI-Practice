@@ -13,10 +13,15 @@
 		D8536C26274121030047C725 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C25274121030047C725 /* Tests_macOSLaunchTests.swift */; };
 		D8536C27274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */; };
 		D8536C28274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */; };
-		D8536C29274121030047C725 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ShapeView.swift */; };
-		D8536C2A274121030047C725 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ShapeView.swift */; };
+		D8536C29274121030047C725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ContentView.swift */; };
+		D8536C2A274121030047C725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ContentView.swift */; };
 		D8536C2B274121030047C725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8536C01274121030047C725 /* Assets.xcassets */; };
 		D8536C2C274121030047C725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8536C01274121030047C725 /* Assets.xcassets */; };
+		D8536C3D27414E5D0047C725 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D8536C3C27414E5D0047C725 /* Kingfisher */; };
+		D8536C46274153F00047C725 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C45274153F00047C725 /* CustomButtonView.swift */; };
+		D8536C47274153F00047C725 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C45274153F00047C725 /* CustomButtonView.swift */; };
+		D8536C492741543A0047C725 /* ImageNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C482741543A0047C725 /* ImageNetworkView.swift */; };
+		D8536C4A2741543A0047C725 /* ImageNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C482741543A0047C725 /* ImageNetworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_PracticeApp.swift; sourceTree = "<group>"; };
-		D8536C00274121020047C725 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		D8536C00274121020047C725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8536C01274121030047C725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8536C06274121030047C725 /* Swift-UI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-UI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8536C0C274121030047C725 /* Swift-UI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-UI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +54,8 @@
 		D8536C1F274121030047C725 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8536C23274121030047C725 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D8536C25274121030047C725 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D8536C45274153F00047C725 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		D8536C482741543A0047C725 /* ImageNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNetworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8536C3D27414E5D0047C725 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +105,9 @@
 		D8536BFE274121020047C725 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D8536C41274153490047C725 /* views */,
 				D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */,
-				D8536C00274121020047C725 /* ShapeView.swift */,
+				D8536C00274121020047C725 /* ContentView.swift */,
 				D8536C01274121030047C725 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -141,6 +150,15 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		D8536C41274153490047C725 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D8536C45274153F00047C725 /* CustomButtonView.swift */,
+				D8536C482741543A0047C725 /* ImageNetworkView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +175,9 @@
 			dependencies = (
 			);
 			name = "Swift-UI-Practice (iOS)";
+			packageProductDependencies = (
+				D8536C3C27414E5D0047C725 /* Kingfisher */,
+			);
 			productName = "Swift-UI-Practice (iOS)";
 			productReference = D8536C06274121030047C725 /* Swift-UI-Practice.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +270,9 @@
 				Base,
 			);
 			mainGroup = D8536BF9274121020047C725;
+			packageReferences = (
+				D8536C3B27414E5D0047C725 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D8536C07274121030047C725 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,7 +323,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8536C29274121030047C725 /* ShapeView.swift in Sources */,
+				D8536C46274153F00047C725 /* CustomButtonView.swift in Sources */,
+				D8536C29274121030047C725 /* ContentView.swift in Sources */,
+				D8536C492741543A0047C725 /* ImageNetworkView.swift in Sources */,
 				D8536C27274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8536C2A274121030047C725 /* ShapeView.swift in Sources */,
+				D8536C47274153F00047C725 /* CustomButtonView.swift in Sources */,
+				D8536C2A274121030047C725 /* ContentView.swift in Sources */,
+				D8536C4A2741543A0047C725 /* ImageNetworkView.swift in Sources */,
 				D8536C28274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,6 +743,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8536C3B27414E5D0047C725 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8536C3C27414E5D0047C725 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8536C3B27414E5D0047C725 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8536BFA274121020047C725 /* Project object */;
 }
