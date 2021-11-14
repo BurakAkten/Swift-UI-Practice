@@ -34,10 +34,9 @@ struct ContentView: View {
     }
     //MARK: Clicable Group View
     fileprivate func clicableGroupView() -> some View{
-        return VStack(alignment: .center, spacing: 12) {
-            Spacer()
+        return VStack() {
             ImageNetworkView(imageUrl: "https://picsum.photos/200/300")
-            Spacer()
+            CustomProfileView()
             CustomButtonView(onclick: {})
         }
     }

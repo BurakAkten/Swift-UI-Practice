@@ -22,6 +22,8 @@
 		D8536C47274153F00047C725 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C45274153F00047C725 /* CustomButtonView.swift */; };
 		D8536C492741543A0047C725 /* ImageNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C482741543A0047C725 /* ImageNetworkView.swift */; };
 		D8536C4A2741543A0047C725 /* ImageNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C482741543A0047C725 /* ImageNetworkView.swift */; };
+		D8FE73D52741771F0047CF46 /* CustomProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE73D42741771F0047CF46 /* CustomProfileView.swift */; };
+		D8FE73D62741771F0047CF46 /* CustomProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE73D42741771F0047CF46 /* CustomProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,7 @@
 		D8536C25274121030047C725 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		D8536C45274153F00047C725 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		D8536C482741543A0047C725 /* ImageNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNetworkView.swift; sourceTree = "<group>"; };
+		D8FE73D42741771F0047CF46 /* CustomProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 			children = (
 				D8536C45274153F00047C725 /* CustomButtonView.swift */,
 				D8536C482741543A0047C725 /* ImageNetworkView.swift */,
+				D8FE73D42741771F0047CF46 /* CustomProfileView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -327,6 +331,7 @@
 				D8536C29274121030047C725 /* ContentView.swift in Sources */,
 				D8536C492741543A0047C725 /* ImageNetworkView.swift in Sources */,
 				D8536C27274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
+				D8FE73D52741771F0047CF46 /* CustomProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +343,7 @@
 				D8536C2A274121030047C725 /* ContentView.swift in Sources */,
 				D8536C4A2741543A0047C725 /* ImageNetworkView.swift in Sources */,
 				D8536C28274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
+				D8FE73D62741771F0047CF46 /* CustomProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

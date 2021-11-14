@@ -13,13 +13,12 @@ struct ImageNetworkView: View {
     
     var body: some View {
         KFImage(URL(string: imageUrl))
+            .fade(duration: 0.25)
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).shadow(radius: 12)
-            
-    }
-}
+    }}
 
 struct ImageNetworkView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageNetworkView(imageUrl: "https://picsum.photos/200/300").previewLayout(.sizeThatFits)
+        ImageNetworkView(imageUrl: "https://picsum.photos/200/300")
     }
 }
