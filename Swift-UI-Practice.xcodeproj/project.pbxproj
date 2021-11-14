@@ -13,8 +13,8 @@
 		D8536C26274121030047C725 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C25274121030047C725 /* Tests_macOSLaunchTests.swift */; };
 		D8536C27274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */; };
 		D8536C28274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */; };
-		D8536C29274121030047C725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ContentView.swift */; };
-		D8536C2A274121030047C725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ContentView.swift */; };
+		D8536C29274121030047C725 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ShapeView.swift */; };
+		D8536C2A274121030047C725 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C00274121020047C725 /* ShapeView.swift */; };
 		D8536C2B274121030047C725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8536C01274121030047C725 /* Assets.xcassets */; };
 		D8536C2C274121030047C725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8536C01274121030047C725 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_PracticeApp.swift; sourceTree = "<group>"; };
-		D8536C00274121020047C725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8536C00274121020047C725 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		D8536C01274121030047C725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8536C06274121030047C725 /* Swift-UI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-UI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8536C0C274121030047C725 /* Swift-UI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-UI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */,
-				D8536C00274121020047C725 /* ContentView.swift */,
+				D8536C00274121020047C725 /* ShapeView.swift */,
 				D8536C01274121030047C725 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8536C29274121030047C725 /* ContentView.swift in Sources */,
+				D8536C29274121030047C725 /* ShapeView.swift in Sources */,
 				D8536C27274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8536C2A274121030047C725 /* ContentView.swift in Sources */,
+				D8536C2A274121030047C725 /* ShapeView.swift in Sources */,
 				D8536C28274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

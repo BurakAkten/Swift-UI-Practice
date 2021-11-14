@@ -7,7 +7,37 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CustomButtonView: View{
+   @State var clicks : Int = 0;
+    
+    var body: some View{
+        return VStack(){
+            Button(action: {
+                clicks = clicks + 1;
+            }) {
+                HStack(){
+                    Image(systemName: "person").foregroundColor(.white)
+                    Text("Clickable")
+                        .font(.title3)
+                        .foregroundColor(.white)
+                        .padding()
+                }
+            }
+            .buttonStyle(.bordered)
+            .background(Color("button_bg"))
+            .buttonBorderShape(.roundedRectangle)
+            .cornerRadius(12)
+            Group(){
+                if clicks > 0 {
+                    Text("You have clicked \(clicks)")
+                }
+            }
+        }
+    }
+}
+
+
+struct ShapeView: View {
     //MARK: Geometric Shapes
     fileprivate func geometricShapes() -> some View {
         return VStack {
@@ -37,19 +67,7 @@ struct ContentView: View {
                 Text("Sparta!!")
             }.font(.headline).foregroundColor(.red).shadow(radius: 4)
             Spacer()
-            Button(action: onClick) {
-                HStack(){
-                    Image(systemName: "person").foregroundColor(.white)
-                    Text("Clickable")
-                        .font(.title3)
-                        .foregroundColor(.white)
-                        .padding()
-                }
-            }
-            .buttonStyle(.bordered)
-            .background(Color("button_bg"))
-            .buttonBorderShape(.roundedRectangle)
-            .cornerRadius(12)
+            CustomButtonView()
         }
     }
     
@@ -63,14 +81,10 @@ struct ContentView: View {
             }
         }
     }
-    
-    func onClick(){
-        print("On click");
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ShapeView()
     }
 }
