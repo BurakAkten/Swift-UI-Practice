@@ -17,17 +17,14 @@ struct PostModel : Identifiable {
 
 extension PostModel {
     static let posts : Array<PostModel> = [
-        PostModel(name: "Burak Akten", postContent: "Today weather is rainy!!", likeCount: 22),
-        PostModel(name: "Ezgi Akcan", postContent: "Today weather is cloudly!!", likeCount: 12),
-        PostModel(name: "Burak Akten", postContent: "Lets go to the park"),
-        PostModel(name: "Burak Akten", postContent: "Today weather is rainy!!", likeCount: 22),
-        PostModel(name: "Ezgi Akcan", postContent: "Today weather is cloudly!!", likeCount: 12),
-        PostModel(name: "Burak Akten", postContent: "Lets go to the park"),
-        PostModel(name: "Burak Akten", postContent: "Today weather is rainy!!", likeCount: 22),
-        PostModel(name: "Ezgi Akcan", postContent: "Today weather is cloudly!!", likeCount: 12),
-        PostModel(name: "Burak Akten", postContent: "Lets go to the park"),
+        PostModel(name: "BA", postContent: "Today weather is rainy!!", likeCount: 22),
+        PostModel(name: "EA", postContent: "Today weather is cloudly!!", likeCount: 12),
+        PostModel(name: "BB", postContent: "Lets go to the park"),
+        PostModel(name: "EA", postContent: "Today weather is rainy!!", likeCount: 22),
+        PostModel(name: "BB", postContent: "Today weather is cloudly!!", likeCount: 12),
+        
     ]
     
-    static let fakePost : PostModel = PostModel(name: "Burak Akten", postContent: "Today weather is rainy!!", likeCount: 22)
+    static let fakePost : PostModel = PostModel(name: "BA", postContent: "Today weather is rainy!!", likeCount: 22)
 
 }

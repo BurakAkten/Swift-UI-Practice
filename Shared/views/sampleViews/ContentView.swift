@@ -42,7 +42,7 @@ struct ContentView: View {
     }
     
     var body: some View {
-        let showShapes = false;
+        let showShapes = true;
         Group(){
             if showShapes {
                 geometricShapes()

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D846176D274BEBBB00B06600 /* PostInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846176C274BEBBB00B06600 /* PostInfoView.swift */; };
+		D846176E274BEBBC00B06600 /* PostInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846176C274BEBBB00B06600 /* PostInfoView.swift */; };
 		D8536C18274121030047C725 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C17274121030047C725 /* Tests_iOS.swift */; };
 		D8536C1A274121030047C725 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C19274121030047C725 /* Tests_iOSLaunchTests.swift */; };
 		D8536C24274121030047C725 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8536C23274121030047C725 /* Tests_macOS.swift */; };
@@ -52,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D846176C274BEBBB00B06600 /* PostInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInfoView.swift; sourceTree = "<group>"; };
 		D8536BFF274121020047C725 /* Swift_UI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UI_PracticeApp.swift; sourceTree = "<group>"; };
 		D8536C00274121020047C725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8536C01274121030047C725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -207,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				D8FE73E427418B0D0047CF46 /* PostsView.swift */,
+				D846176C274BEBBB00B06600 /* PostInfoView.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -381,6 +385,7 @@
 				D8FE73D8274180790047CF46 /* AppView.swift in Sources */,
 				D8FE73DC2741847E0047CF46 /* PostModel.swift in Sources */,
 				D8536C492741543A0047C725 /* ImageNetworkView.swift in Sources */,
+				D846176D274BEBBB00B06600 /* PostInfoView.swift in Sources */,
 				D8536C27274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
 				D8FE73D52741771F0047CF46 /* CustomProfileView.swift in Sources */,
 				D8FE73E527418B0D0047CF46 /* PostsView.swift in Sources */,
@@ -397,6 +402,7 @@
 				D8FE73D9274180790047CF46 /* AppView.swift in Sources */,
 				D8FE73DD2741847E0047CF46 /* PostModel.swift in Sources */,
 				D8536C4A2741543A0047C725 /* ImageNetworkView.swift in Sources */,
+				D846176E274BEBBC00B06600 /* PostInfoView.swift in Sources */,
 				D8536C28274121030047C725 /* Swift_UI_PracticeApp.swift in Sources */,
 				D8FE73D62741771F0047CF46 /* CustomProfileView.swift in Sources */,
 				D8FE73E627418B0D0047CF46 /* PostsView.swift in Sources */,

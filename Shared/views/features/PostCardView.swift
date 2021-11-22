@@ -30,8 +30,8 @@ struct PostCardView: View {
         .frame(height: 100, alignment: .leading)
         .padding(.horizontal, 8)
         .overlay(RoundedRectangle(cornerRadius:8).stroke().foregroundColor(.yellow))
-            
-      
+        
+
     }
 }
 

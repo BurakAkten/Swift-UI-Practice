@@ -9,9 +9,17 @@ import SwiftUI
 
 struct PostsView: View {
     var body: some View {
-        List(PostModel.posts) { post in
-            PostCardView(post: post)
-            
+        NavigationView(){
+            List(PostModel.posts) { post in
+                NavigationLink {
+                    PostInfoView(post: post)
+                } label: {
+                    PostCardView(post: post)
+                }
+            }
+            .navigationTitle(Text("Posts"))
+            .listStyle(.grouped)
+          
         }
     }
 }
